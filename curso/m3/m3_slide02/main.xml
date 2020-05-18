@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ro delay="5">
+
+	<!-- foto: posicao="esq", "dir", "cima" ou "baixo" / moldura="sim" ou "" / texto_expandido="sim" ou "" -->
+	<foto moldura="sim" pos_x="90" pos_y="20">imagens/Image1.png</foto> <!-- foto opcional, deste modo aparece apenas o texto -->
+
+	<texto_left></texto_left>
+
+	<texto_right><![CDATA[<br><br><br><br><br><br><br><br>A valorização das relações individuais,  de equipa e comunicação visam melhorar o desempenho individual e aumentar a produtividade.]]></texto_right>
+
+</ro>

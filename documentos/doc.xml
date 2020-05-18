@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Os documentos tipo da Bookcase:
+
+- "video" -> abre um player que se encontra na pasta "props" (dentro dos "documentos")
+- "file" -> descarrega um PDF que se encontra na pasta "files"
+- "pic" -> abre um scroller com um conjunto de JPGs do printscreen das paginas do documento, que se encontrem dentro da pasta "docs"
+
+-->
+<documentos>
+	<!--<doc type="video">
+		<nome>VIDEO 01</nome>
+		<page>videos/vid_01.mp4</page>
+    </doc>
+    
+   <doc type="file">
+		<nome><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="JUSTIFY"><FONT FACE="Calibri" SIZE="14" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"><B>OPERATIONS MANUAL (A)</B></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="JUSTIFY"><FONT FACE="Calibri" SIZE="13" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="JUSTIFY"><FONT FACE="Calibri" SIZE="13" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">Documento para download (tipo PDF).</FONT></P></TEXTFORMAT>]]></nome>
+		<page>files/OM(A)__REV06.pdf</page>
+    </doc>
+
+    <doc type="pic">
+		<nome><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="JUSTIFY"><FONT FACE="Calibri" SIZE="13" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"><B>TAP MAINTENANCE & ENGINEERING</B></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="JUSTIFY"><FONT FACE="Calibri" SIZE="13" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="JUSTIFY"><FONT FACE="Calibri" SIZE="13" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0">FAA CERTIFICATE. (JPG)</FONT></P></TEXTFORMAT>]]></nome>
+		<page>docs/doc1/doc1.jpg</page>
+		<page>docs/doc1/doc2.jpg</page>
+		<page>docs/doc1/doc3.jpg</page>
+		<page>docs/doc1/doc4.jpg</page>
+		<page>docs/doc1/doc5.jpg</page>
+		<page>docs/doc1/doc6.jpg</page>
+		<page>docs/doc1/doc7.jpg</page>
+		<page>docs/doc1/doc8.jpg</page>
+		<page>docs/doc1/doc9.jpg</page>
+		<page>docs/doc1/doc10.jpg</page>
+		<page>docs/doc1/doc11.jpg</page>
+		<page>docs/doc1/doc12.jpg</page>
+		<page>docs/doc1/doc13.jpg</page>
+		<page>docs/doc1/doc14.jpg</page>
+		<page>docs/doc1/doc15.jpg</page>
+		<page>docs/doc1/doc16.jpg</page>
+		<page>docs/doc1/doc17.jpg</page>
+		<page>docs/doc1/doc18.jpg</page>
+	</doc>-->
+    
+</documentos>

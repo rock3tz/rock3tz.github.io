@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Curso>
+
+	<!-- LOGO
+	GroundForce			| logo_gf.png
+	TAP Maintenance		| logo_me.png
+	TAP Serviços		| logo_ser.png
+	TAP Portugal		| logo_ta.png
+	UCS					| logo_ucs.png
+	-->
+	
+	<!-- LOGO DIREITA
+	eConhecimento		| eConhecimento.png
+	eKnowledge   		| eKnowledge.png
+	-->
+
+	<!-- SKIN (escilher skin do template)
+	NOT WORKING
+	-->
+
+	<!-- PRECEDENCIAS (precedencias entre modulos)
+	sim/nao
+	-->
+
+	<!-- LINGUA (escolher a linguagem do curso)
+	pt/en
+	-->
+
+	<!-- GLOSSARIO (contem glossario)
+	sim/nao
+	-->
+
+	<!-- DOCUMENTOS (contem documentos)
+	sim/nao
+	-->
+	
+	<!-- NOTAS (disponibilizar a funcionalidade de guardar notas)
+	sim/nao
+	-->
+
+	<!-- COR (cor hexadecimal do curso)
+	99cc00/88ff00
+	-->
+
+	<!-- MUSICA (musica ambiente no curso em formato mp3)
+	musica/musica.mp3
+	-->
+
+	<!-- GN SKIP INTRO ENABLED (permitir saltar o Guia de Navegacao)
+	sim/nao
+	-->
+
+	<parametros
+		logo="logo/logo_ta.png"
+		logoDireita="logo/elearning.png"
+		skin=""
+		precedencias="sim"
+		lingua="pt"
+		glossario="nao"
+		documentos="nao"
+		notas="sim"
+		cor="99CC02"
+		musica=""
+		gnSkipIntroEnabled="sim"
+	/>
+
+	<!-- MARCADOR
+	capa
+    gn
+	conteudo
+	objectivos
+	resumo
+	quiz
+	quizFormativo
+	-->
+    
+	<Nome>FATORES HUMANOS</Nome>
+	
+	<modulo id="1" peso="0">
+		<nome>Módulo 1: Definições e Explicações de Conceitos</nome>
+        <pagina id="1" marcador="capa" link="m1/m1_slide01/capa.swf"></pagina>
+        <pagina id="2" marcador="gn" link="gn_v1_0.swf">Guia de Navegação</pagina>
+		<pagina id="3" marcador="conteudo" link="slide_student_v2_0.swf">TA/SC/REG</pagina>
+		<pagina id="4" marcador="objectivos" link="m1/m1_slide02/slide2.swf">Objetivos Gerais</pagina>
+		<pagina id="5" marcador="conteudo" link="m1/m1_slide03/slide3.swf">Conteúdo Programático</pagina>
+		<pagina id="6" marcador="conteudo" link="m1/m1_slide04/separador1.swf">Módulo 1</pagina>
+		<pagina id="7" marcador="conteudo" link="m1/m1_slide05/ro_grelhaPaineis.swf">M1 | Definições e Explicações de Conceitos</pagina>
+		<pagina id="8" marcador="conteudo" link="m1/m1_slide06/ro_notebook_2.swf">M1 | Segurança e Higiene no Trabalho</pagina>
+		<pagina id="9" marcador="conteudo" link="m1/m1_slide07/paineis.swf">M1 | Definições Importantes</pagina>
+		<pagina id="10" marcador="conteudo" link="m1/m1_slide08/slide8.swf">M1 | Definições Importantes: Erro, Perigo e Risco</pagina>
+		<pagina id="11" marcador="conteudo" link="m1/m1_slide09/slide9.swf">M1 | Fatores de Comportamento Humano</pagina>
+		<pagina id="12" marcador="conteudo" link="m1/m1_slide10/ro_grelhaPaineis.swf">M1 | Perigos e Riscos Operacionais</pagina>
+		<pagina id="13" marcador="conteudo" link="m1/m1_slide11/ro_fotoTopo.swf">M1 | Riscos Operacionais (ambiente de trabalho)</pagina>
+		<pagina id="14" marcador="conteudo" link="m1/m1_slide12/carrocel.swf">M1 | Perigos e Riscos Profissionais</pagina>
+		<pagina id="15" marcador="conteudo" link="m1/m1_slide13/slide_13.swf">M1 | Incidentes e Acidentes de Trabalho</pagina>
+		<pagina id="16" marcador="conteudo" link="m1/m1_slide14/slide14.swf">M1 | Manuseamento de Equipamentos</pagina>
+		<pagina id="17" marcador="conteudo" link="m1/m1_slide15/ro_grelhaPaineis.swf">M1 | Fatores de Comportamento Humano</pagina>
+		<pagina id="18" marcador="conteudo" link="m1/m1_slide16/slide_16.swf">M1 | Prevenção</pagina>
+		<pagina id="19" marcador="conteudo" link="m1/m1_slide17/slide_17.swf">M1 | Importância da Prevenção</pagina>
+		<pagina id="20" marcador="resumo" link="m1/m1_slide18/slide_resumo.swf">M1 | Resumo</pagina>
+		<pagina id="21" marcador="conteudo" link="m1/m1_slide19/avaliacao1.swf">M1 | Avaliação</pagina>
+		<pagina id="22" marcador="quizFormativo" link="m1/m1_slide20/isoworld.swf">M1 | Avaliação</pagina>
+		<pagina id="23" marcador="conteudo" link="ultimo_v1_0.swf"></pagina>
+				
+	</modulo>
+	
+	<modulo id="2" peso="0">
+		<nome>Módulo 2: Fatores de Comportamento Humano</nome>
+       <pagina id="1" marcador="objectivos" link="m2/m2_slide01/separador2.swf">Módulo 2</pagina>
+		<pagina id="2" marcador="conteudo" link="m2/m2_slide02/ro_notebook_2.swf">M2 | Introdução</pagina>
+		<pagina id="3" marcador="conteudo" link="m2/m2_slide03/paineis.swf">M2 | Fatores de Comportamento Humano</pagina>
+		<pagina id="4" marcador="conteudo" link="m2/m2_slide04/slide4.swf">M2 | Gestão de Stress e do Erro Humano</pagina>
+		<pagina id="5" marcador="conteudo" link="m2/m2_slide05/slide5.swf">M2 | Equipamentos de Proteção Individual e Coletiva</pagina>
+		<pagina id="6" marcador="resumo" link="m2/m2_slide06/slide_resumo.swf">M2 | Resumo</pagina>
+		<pagina id="7" marcador="conteudo" link="m2/m2_slide07/avaliacao1.swf">M2 | Avaliação</pagina>
+		<pagina id="8" marcador="quizFormativo" link="m2/m2_slide08/isoworld.swf">M2 | Avaliação</pagina>
+		<pagina id="9" marcador="conteudo" link="ultimo_v1_0.swf"></pagina>
+				
+	</modulo>
+	
+	<modulo id="3" peso="0">
+		<nome>Módulo 3: Desempenho Individual da Equipa e Comunicação</nome>
+       	<pagina id="1" marcador="objectivos" link="m3/m3_slide01/separador3.swf">Módulo 3</pagina>
+		<pagina id="2" marcador="conteudo" link="m3/m3_slide02/ro_notebook_2.swf">M3 | Introdução</pagina>
+		<pagina id="3" marcador="conteudo" link="m3/m3_slide03/paineis.swf">M3 | Desempenho Individual e da Equipa</pagina>
+		<pagina id="4" marcador="conteudo" link="m3/m3_slide04/ro_text_photo_balloon.swf">M3 | Perigos e Riscos Operacionais – Equipamentos de Proteção Coletiva</pagina>
+		<pagina id="5" marcador="conteudo" link="m3/m3_slide05/ro_text_photo_gallery.swf">M3 | Papel da Comunicação na Interação na Operação</pagina>
+		<pagina id="6" marcador="conteudo" link="m3/m3_slide06/slide6.swf">M3 | Regulamentação</pagina>
+		<pagina id="7" marcador="resumo" link="m3/m3_slide07/slide_resumo.swf">M3 | Resumo</pagina>
+		<pagina id="8" marcador="conteudo" link="m3/m3_slide08/avaliacao1.swf">M3 | Avaliação</pagina>
+		<pagina id="9" marcador="quizFormativo" link="m3/m3_slide09/isoworld.swf">M3 | Avaliação</pagina>
+		<pagina id="10" marcador="conteudo" link="ultimo_v1_0.swf"></pagina>
+				
+	</modulo>
+	
+	<modulo id="4" peso="100">
+		<nome>Avaliação Final</nome>
+       		<pagina id="1" marcador="conteudo" link="m4/m4_separador_avaliacao_final/avaliacao_final1.swf">Avaliação Final</pagina>
+		<pagina id="2" marcador="quiz" link="m4/m4_Avaliacao Final/ro_game_2.swf">Avaliação Final</pagina>
+		<pagina id="3" marcador="conteudo" link="m4/m4_Conclusao/conclusao.swf"></pagina>
+	</modulo>
+
+</Curso>

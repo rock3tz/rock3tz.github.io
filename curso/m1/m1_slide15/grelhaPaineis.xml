@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<panels>
+<!--					 3				 10			   195			  15				   210					140			   sim/nao				de 0 a 1   -->
+	<parametros
+		colunas="1"
+		afastamento="20"
+		posicaoX="490"
+		posicaoY="40"
+		larguraPolaroid="350"
+		alturaPolaroid="120"
+		textTitulo="sim"
+		textCor="ffffff"
+		textMiddle="sim"
+		textBackground="nao"
+		polaroidAlpha="1"
+		animationType="1"
+	/>
+	
+	<fundo src="bg.jpg" titulo="" tamanhoLetra="50"/>
+	
+<!--			 caminho imagens		titulo		   foto escolhida   -->
+	<imagem src="images/002.jpg" titulo="Definições e Explicações de Conceitos" num="0"/>
+	<imagem src="images/01.jpg" titulo="Perigos e Riscos Operacionais" num="0"/>
+	<imagem src="images/vermelho1.jpg" titulo="Fatores de Comportamento Humano" num="1"/>
+	
+</panels>

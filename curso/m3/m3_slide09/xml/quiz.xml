@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz>
+	<!-- próxima iterações
+	
+	<lingua>pt</lingua> // PT/EN
+	<valor>10</valor>   // Passar a SUMATIVO e ter nota
+	<limite>2</limite>  // Limite de tentativas de responder ao QUIZ
+	
+	-->
+		
+	<item>
+		<foto></foto>
+		<question><![CDATA[Classifique a seguinte afirmação como verdadeira ou falsa, selecionando a opção que considera correta.
+Os sinais como forma de comunicação são importantes para se atingir os objetivos da prevenção dos riscos laborais.]]></question>
+		<choice id="1">Verdadeiro</choice>
+		<choice id="0">Falso</choice>
+		
+	</item>	
+	<item>
+		<foto></foto>
+		<question><![CDATA[Classifique a seguinte afirmação como verdadeira ou falsa, selecionando a opção que considera correta.
+Num aeroporto a operação dá-se na placa, pelo facto bastarão os sinais externos de perigo.]]></question>
+		<choice id="0">Verdadeiro</choice>
+		<choice id="1">Falso</choice>
+		
+	</item>	
+	<item>
+		<foto></foto>
+		<question><![CDATA[Selecione a opção que considera correta.
+A limpeza das plataformas permite _____________________.]]></question>
+		<choice id="1">a certeza de não ocorrência de qualquer acidente com os objetos F.O.D.</choice>
+		<choice id="0">uma imagem de asseio para o exterior</choice>
+		
+	</item>	
+	<item>
+		<foto></foto>
+		<question><![CDATA[Classifique a seguinte afirmação como verdadeira ou falsa, selecionando a opção que considera correta.
+O desempenho individual é melhor quanto maior for a qualificação do pessoal.]]></question>
+		<choice id="1">Verdadeiro</choice>
+		<choice id="0">Falso</choice>
+		
+	</item>	
+	<item>
+		<foto></foto>
+		<question><![CDATA[Selecione a opção que considera correta.
+Em caso de emergência deve-se _____________________.]]></question>
+		<choice id="1">facultar o acesso aos locais e prestar informações com vista à garantia da segurança</choice>
+		<choice id="0">abandonar as instalações</choice>
+		
+	</item>	
+	
+</quiz>

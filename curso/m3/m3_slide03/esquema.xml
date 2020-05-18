@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<esquema>
+	<topo><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">topo topo topo</FONT></P></TEXTFORMAT>]]></topo>
+
+	<topico><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="JUSTIFY"><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></FONT></FONT></P></TEXTFORMAT>]]></topico>
+
+	<item cor="0x99cc00">
+		<titulo>Carregamento e Descarregamento dos Aviões na Placa</titulo>
+		<pagina delay="5">
+			<texto><![CDATA[<TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"><br><br><br>Só pessoal qualificado pode operar equipamentos;</FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Travamento dos ULD´S (<I>UNIT LOAD DEVICES</I>) dentro dos porões;</FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Circulação de pessoas e equipamentos juntos dos reatores em funcionamento;</FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Respeito pela movimentação de aeronaves na placa, dar-lhe sempre prioridade e respeito pelas normas de trânsito quanto à velocidade e peso;</FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Sinalização dos equipamento fora de serviço.</FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></LI></TEXTFORMAT>]]></texto>
+			<foto posH="direita" posV="centro">fotos/pic1.jpg</foto>
+			
+		</pagina>
+	</item>
+
+	<item cor="0xff9900">
+		<titulo>Limpeza das Plataformas e Locais de Trabalho</titulo>
+		<pagina delay="5">
+			<texto><![CDATA[<TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"><br>Conservar os caminhos de circulação e plataformas de estacionamento limpos de todos objetos estranhos (cuidado com os <i>FOD - Foreign Object Damage</i>. Lembrem-se sempre do acidente com o Concorde);</FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Certificar-se das boas condições das viaturas que conduzem e da sua manutenção em termos de derrames de óleos ou combustíveis nas áreas de estacionamento das aeronaves;</FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Certificar-se que a limpeza das instalações de trabalho é rigorosamente feita, não ingerir qualquer alimento ou bebida nas áreas restritas, nem deixar qualquer desperdício ou detrito que possa representar perigo.</FONT></LI></TEXTFORMAT>]]></texto>
+			<foto posH="direita" posV="centro">fotos/pic2.jpg</foto>
+			
+		</pagina>
+	</item>
+	
+	<item cor="0x0099ff">
+		<titulo>Marcação das Áreas de Risco</titulo>
+		<pagina delay="5">
+			<texto><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="JUSTIFY"><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"><br><br>No interior e exterior das instalações, devem existir avisos e informações, que possam auxiliar os elementos a atuar em conformidade com os procedimentos de Segurança:</FONT></P></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Sinais de Perigo (ex. perigo de incêndio);</FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Sinais de Proibição (ex. proibição de fumar na placa);</FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Sinais de Obrigação (uso de máscara, limite de velocidade);</FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Sinais de Emergência (saída de emergência, posto de socorro, etc.); </FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Sinais de Tráfego (parqueamento de carros ou aviões).</FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></LI></TEXTFORMAT>]]></texto>
+			<foto posH="direira" posV="centro">fotos/pic3.jpg</foto>
+			
+		</pagina>
+	</item>
+	
+	<item cor="0x6666ff">
+		<titulo>Medidas de Proteção Coletiva</titulo>
+		<pagina delay="5">
+			<texto><![CDATA[<TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"><br><br>Devem ter prioridade visto que beneficiam todos os trabalhadores;</FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Devem estar em boas condições de segurança e utilização.</FONT></LI></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="JUSTIFY"><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="JUSTIFY"><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Citando alguns:</FONT></P></TEXTFORMAT><TEXTFORMAT LEADING="2"><P ALIGN="JUSTIFY"><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></P></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Manter o sistema de exaustão em perfeito estado;</FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Libertar o local de trabalho dos ruídos (quando passível de isolamento).</FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></LI></TEXTFORMAT>]]></texto>
+			<foto posH="direira" posV="centro">fotos/pic4.jpg</foto>
+			
+		</pagina>
+	</item>
+
+	
+		
+	<rodape></rodape>
+
+</esquema>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz>
+	<!-- próxima iterações
+	
+	<lingua>pt</lingua> // PT/EN
+	<valor>10</valor>   // Passar a SUMATIVO e ter nota
+	<limite>2</limite>  // Limite de tentativas de responder ao QUIZ
+	
+	-->
+		
+	<item>
+		<foto></foto>
+		<question><![CDATA[Selecione a opção que considera correta.
+Indique um fator de comportamento humano que pode potenciar o erro:]]></question>
+		<choice id="0">Absentismo</choice>
+		<choice id="0">Despromoção</choice>
+		<choice id="0">Divórcio</choice>
+		<choice id="1">Droga</choice>
+		
+	</item>	
+	<item>
+		<foto></foto>
+		<question><![CDATA[Selecione a opção que considera correta.
+Em que medida o vestuário ou os adornos inadequados podem potenciar o perigo no local de trabalho?]]></question>
+		<choice id="1">Os cordões e fios podem ficar presos nas roldanas em movimento</choice>
+		<choice id="0">A utilização de roupa de cor garrida</choice>
+		
+	</item>	
+	<item>
+		<foto></foto>
+		<question><![CDATA[Classifique a seguinte afirmação como verdadeira ou falsa, selecionando a opção que considera correta.
+As situações de conflitos pessoais geradoras de stress no seio da organização podem alterar as condições de comunicação e potenciar o erro.]]></question>
+		<choice id="1">Verdadeiro</choice>
+		<choice id="0">Falso</choice>
+		
+	</item>	
+	<item>
+		<foto></foto>
+		<question><![CDATA[Classifique a seguinte afirmação como verdadeira ou falsa, selecionando a opção que considera correcta.
+É obrigação legal do empregador fornecer os equipamentos de proteção individual.]]></question>
+		<choice id="1">Verdadeiro</choice>
+		<choice id="0">Falso</choice>
+		
+	</item>	
+	<item>
+		<foto></foto>
+		<question><![CDATA[Classifique a seguinte afirmação como verdadeira ou falsa, selecionando a opção que considera correta.
+O trabalhador apenas usará os equipamentos de proteção individual se lhe ficarem bem.]]></question>
+		<choice id="0">Verdadeiro, o trabalhador é livre de decidir</choice>
+		<choice id="1">Falso, a legislação obriga a sua utilização</choice>
+		
+	</item>	
+	
+</quiz>

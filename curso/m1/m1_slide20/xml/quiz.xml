@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<quiz>
+	<!-- próxima iterações
+	
+	<lingua>pt</lingua> // PT/EN
+	<valor>10</valor>   // Passar a SUMATIVO e ter nota
+	<limite>2</limite>  // Limite de tentativas de responder ao QUIZ
+	
+	-->
+		
+	<item>
+		<foto></foto>
+		<question><![CDATA[Complete a seguinte frase, selecionando a opção que considera correta.
+O estudo dos fatores humanos que contribuem para evitar os erros humanos integram a matéria de ___________.]]></question>
+		<choice id="0">Security</choice>
+		<choice id="1">Safety</choice>
+		
+	</item>	
+	<item>
+		<foto></foto>
+		<question><![CDATA[Classifique a seguinte afirmação como verdadeira ou falsa, selecionando a opção que considera correta.
+A Segurança e a Higiene no trabalho visam avaliar, eliminar, reduzir ou prevenir os riscos profissionais.]]></question>
+		<choice id="1">Verdadeiro</choice>
+		<choice id="0">Falso</choice>
+		
+	</item>	
+	<item>
+		<foto></foto>
+		<question><![CDATA[Classifique a seguinte afirmação como verdadeira ou falsa, selecionando a opção que considera correta.
+Os conceitos de Incidente e Acidente têm a mesma definição.]]></question>
+		<choice id="0">Verdadeiro</choice>
+		<choice id="1">Falso</choice>
+		
+	</item>	
+	<item>
+		<foto></foto>
+		<question><![CDATA[Classifique a seguinte afirmação como verdadeira ou falsa, selecionando a opção que considera correta.
+A segurança e a higiene no trabalho controlam somente as condições que podem prejudicar a saúde dos trabalhadores.]]></question>
+		<choice id="0">Verdadeiro</choice>
+		<choice id="1">Falso</choice>
+		
+	</item>	
+	<item>
+		<foto></foto>
+		<question><![CDATA[Classifique a seguinte afirmação como verdadeira ou falsa, selecionando a opção que considera correta.
+A fadiga provocada por uma noite de diversão pode ser considerada fator de comportamento humano atendível pela entidade patronal.]]></question>
+		<choice id="0">Verdadeiro</choice>
+		<choice id="1">Falso</choice>
+		
+	</item>	
+	
+</quiz>

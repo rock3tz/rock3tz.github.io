@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<esquema>
+	<topo><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">topo topo topo</FONT></P></TEXTFORMAT>]]></topo>
+
+	<topico><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="JUSTIFY"><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></FONT></FONT></P></TEXTFORMAT>]]></topico>
+
+	<item cor="0x99cc00">
+		<titulo>Drogas</titulo>
+		<pagina delay="2">
+			<texto><![CDATA[<TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Provocam alterações comportamentais geradoras de erros e conflitos;</FONT></LI></TEXTFORMAT>]]></texto>
+			<foto posH="centro" posV="superior">fotos/pic1.jpg</foto>
+		</pagina>
+	</item>
+
+	<item cor="0xff9900">
+		<titulo>Álcool</titulo>
+		<pagina delay="2">
+			<texto><![CDATA[<TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Reduz o tempo de reação assim como alterações de comportamento;</FONT></LI></TEXTFORMAT>]]></texto>
+			<foto posH="centro" posV="superior">fotos/pic2.jpg</foto>
+		</pagina>
+	</item>
+	
+	<item cor="0x0099ff">
+		<titulo>Tabaco</titulo>
+		<pagina delay="2">
+			<texto><![CDATA[<TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Pode em caso de consumo fora dos locais autorizados, originar perigos de explosão ou incêndio;</FONT></LI></TEXTFORMAT>]]></texto>
+			<foto posH="centro" posV="superior">fotos/pic3.jpg</foto>
+		</pagina>
+	</item>
+	
+	<item cor="0x6666ff">
+		<titulo>Objetos Pessoais</titulo>
+		<pagina delay="2">
+			<texto><![CDATA[<TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Anéis, pulseiras ou qualquer objeto que possa facilmente prender-se a ganchos ou fivelas de precintas. Fios, cordões podem ficar entalados nas roldanas em movimento;</FONT></LI></TEXTFORMAT>]]></texto>
+			<foto posH="centro" posV="superior">fotos/pic4.jpg</foto>
+		</pagina>
+	</item>
+
+	<item cor="0xff0000">
+		<titulo>Exteriores ou Ambientais</titulo>
+		<pagina delay="2">
+			<texto><![CDATA[<TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Fazem parte das condições de trabalho e obrigam a tomada de ações no sentido de minorar os perigos que o ambiente envolvente possa gerar para a saúde do trabalhador.</FONT></LI></TEXTFORMAT>]]></texto>
+			<foto posH="centro" posV="superior">fotos/pic5.jpg</foto>
+		</pagina>
+	</item>	
+		
+	<rodape></rodape>
+
+</esquema>

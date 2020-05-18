@@ -1,9 +1,60 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-        	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="550" height="400" id="main" align="middle">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>TAP - Formação Profissional</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    	<script type="text/javascript" src="js/scoFramework.js"></script>
+		<script type="text/javascript" src="js/swfobject.js"></script>
+		<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+		<link rel="stylesheet" href="./css/styles.css" type="text/css" />
+		<script type="text/javascript" src="./js/checkSysReq.js"></script>
+		<script type="text/javascript">
+			function encerrar()
+			{
+				top.open('', '_self', ''); //bug fix
+				top.close();
+			}
+			
+			function launchMain()
+			{
+				$('#flashContentContainer').show();
+				setTimeout(function() { $('#flashContent').hide(); }, 500)
+				/*$('#flashContent').delay(2000).fadeIn(1000, "swing");
+				var swfVersionStr = "10.3.0";
+				var xiSwfUrlStr = "";
+				var flashvars = {};
+				var params = {};
+				params.quality = "high";
+				params.bgcolor = "#ffffff";
+				params.play = "true";
+				params.loop = "true";
+				params.wmode = "transparent";
+				params.scale = "noscale";
+				params.menu = "true";
+				params.devicefont = "false";
+				params.salign = "";
+				params.allowscriptaccess = "sameDomain";
+				params.allowFullScreen = "true";
+				params.movie = "main.swf";
+				var attributes = {};
+				attributes.id = "main";
+				attributes.name = "main";
+				attributes.align = "top";
+				//swfobject.createCSS("html", "height:100%; background-color: #ffffff; background-image: url(images/white_bg.png);");
+				//swfobject.createCSS("body", "margin:0; padding:0; height:100%; text-align:center; background-image: url(images/white_bg.png);");
+				swfobject.embedSWF("main.swf", "flashContent", "1020", "680", swfVersionStr, xiSwfUrlStr, flashvars, params, attributes);*/
+			}
+		</script>
+	</head>
+    <body onload="SCOInitialize()" onunload="SCOFinish()" onbeforeunload="SCOFinish()">
+        <script type="text/javascript" language="JavaScript" name="earlyInit">
+            if (g_bInitializeOnLoad)
+            {
+                SCOInitialize();
+            }
+        </script>
+        <div id="flashContentContainer" style="display: none;">
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1020" height="680" id="main" align="middle">
 			    <param name="movie" value="main.swf"/>
         		<param name="quality" value="high">
         		<param name="bgcolor" value="#ffffff">
@@ -17,8 +68,8 @@
         		<param name="allowscriptaccess" value="sameDomain">
         		<param name="allowFullScreen" value="true">
 			    <!--[if !IE]>-->
-			    <object type="application/x-shockwave-flash" data="main.swf" width="550" height="400">
-				    <param name="movie" value="main.swf"/>
+			    <object type="application/x-shockwave-flash" data="main.swf" width="1020" height="680">
+			        <param name="movie" value="main.swf"/>
 	        		<param name="quality" value="high">
 	        		<param name="bgcolor" value="#ffffff">
 	        		<param name="play" value="true">
@@ -38,5 +89,61 @@
 			    </object>
 			    <!--<![endif]-->
 			</object>
-</body>
+        </div>
+        <div class="center" id="flashContent">
+	        <p>
+		        <table border="0" align="center" cellpadding="0" cellspacing="0">
+		            <tr>
+		            	<td class="titulo_main" id="td_title_main"></td>
+		            </tr>
+		            <tr>
+		                <td class="titulo" id="td_title"></td>
+		            </tr>
+		        </table>
+	        </p>
+
+	        <table border="0" align="center" cellpadding="0" cellspacing="0">
+	            <tr>
+	                <td width="77" rowspan="5" align="center" class="sha_supEsq"></td>
+	                <td width="250" height="61" class="topLefBoard" id="td1"></td>
+	                <td width="77" height="61" align="center" class="middleBoard" id="tda"></td>
+	                <td class="topRightBoard" id="tda1"></td>
+
+	                <td width="77" rowspan="5" align="center" valign="top" class="sha_supDir"></td>
+	            </tr>
+
+	            <tr>
+	                <td width="250" height="61" class="middleLeftBoard" id="td2"></td>
+	                <td width="77" height="61" align="center" class="middleBoard" id="tdb"></td>
+	                <td class="middleRightBoard" id="tdb1"></td>
+	            </tr>
+
+	            <tr>
+	                <td width="250" height="59" class="middleLeftBoard1" id="td3"></td>
+	                <td width="77" height="59" align="center" class="middleBoard" id="tdc"></td>
+	                <td class="middleRightBoard" id="tdc1"></td>
+	            </tr>
+
+	            <tr>
+	                <td width="250" height="64" class="middleLeftBoard2" id="td4"></td>
+	                <td width="77" height="64" align="center" class="middleBoard" id="tdd"></td>
+	                <td class="middleRightBoard" id="tdd1"></td>
+	            </tr>
+
+	            <tr>
+	                <td width="250" height="63" class="bottomLeftBoard" id="td5"></td>
+	                <td width="77" height="63" align="center" class="middleBoard" id="tde"></td>
+	                <td class="bottomRightBoard" id="tde1"></td>
+	            </tr>
+	        </table>
+	        <table class="tabl">
+	        	<tr>
+	                <td class="result" id="result"></td>
+	            </tr>
+	        </table>
+	        <a href="javascript:void(0);" target="_self" onclick="launchMain();" style="visibility:visible" id="btn_holder">
+	        	<img class="center_btn" src="" alt="" type="image" id="btn"/>
+	        </a>
+	    </div>
+    </body>
 </html>

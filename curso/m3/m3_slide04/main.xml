@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ro delay="7">
+
+	<!-- foto: moldura="sim" ou "" -->
+	<foto moldura="sim">imagens/Image1.jpg</foto>
+
+	<texto><![CDATA[<TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Em caso de emergência deve ser cumprido integralmente o Programa Nacional de Segurança da Aviação Civil. É obrigatório o preenchimento de um relatório detalhado da ocorrência nas situações de rotina e de alerta;</FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Todos os envolvidos nas operações da aviação devem facultar o acesso a locais e materiais sujeitos a inspeção, assim como fornecer todas as informações que permitam garantir a segurança. </FONT></LI></TEXTFORMAT>]]></texto>
+
+	<balao><![CDATA[<br><FONT FACE="Calibri" SIZE="15.5" COLOR="#FFFFFF" LETTERSPACING="0" KERNING="0"><p ALIGN="CENTER"><b>Situações de emergência:</b></p></font>]]></balao>
+
+</ro>

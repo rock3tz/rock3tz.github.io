@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ro delay="5">
+
+	<!-- foto: posicao="esq", "dir", "cima" ou "baixo" / moldura="sim" ou "" / texto_expandido="sim" ou "" -->
+	<foto moldura="sim" pos_x="90" pos_y="30">imagens/Image1.png</foto> <!-- foto opcional, deste modo aparece apenas o texto -->
+
+	<texto_left></texto_left>
+
+	<texto_right><![CDATA[<br><br><br>A Segurança no Trabalho, propõe-se combater os acidentes de trabalho, eliminando as condições inseguras do ambiente e educando os trabalhadores a utilizarem as medidas preventivas.<br><br><br>A Higiene no Trabalho, propõe-se combater dum ponto de vista não médico, as doenças profissionais, identificando os fatores que podem afetar o ambiente do trabalho e o trabalhador, visando eliminar ou reduzir os riscos profissionais.]]></texto_right>
+
+</ro>

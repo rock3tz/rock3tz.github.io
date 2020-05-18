@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<esquema>
+	<topo><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="LEFT"><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">topo topo topo</FONT></P></TEXTFORMAT>]]></topo>
+
+	<topico><![CDATA[<TEXTFORMAT LEADING="2"><P ALIGN="JUSTIFY"><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></FONT></FONT></P></TEXTFORMAT>]]></topico>
+
+	<item cor="0x99cc00">
+		<titulo>Segurança:</titulo>
+		<pagina delay="3">
+			<texto><![CDATA[<TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Estudo, avaliação e controlo dos riscos da operação.</FONT></LI></TEXTFORMAT>]]></texto>
+			<foto posH="centro" posV="superior">fotos/pic1.jpg</foto>
+		</pagina>
+	</item>
+
+	<item cor="0xff9900">
+		<titulo>Higiene:</titulo>
+		<pagina delay="3">
+			<texto><![CDATA[<TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Identificar e controlar as condições de trabalho que possam prejudicar a saúde do trabalhador.</FONT></LI></TEXTFORMAT>]]></texto>
+			<foto posH="centro" posV="superior">fotos/pic2.jpg</foto>
+		</pagina>
+	</item>
+	
+	<item cor="0x0099ff">
+		<titulo>Doença Profissional:</titulo>
+		<pagina delay="3">
+			<texto><![CDATA[<TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">Doença onde as condições de trabalho são determinantes para o seu aparecimento.</FONT></LI></TEXTFORMAT>]]></texto>
+			<foto posH="centro" posV="superior">fotos/pic3.jpg</foto>
+		</pagina>
+	</item>
+	
+	<item cor="0x6666ff">
+		<titulo>Incidente de Trabalho:</titulo>
+		<pagina delay="3">
+			<texto><![CDATA[<TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">É uma ocorrência que provoca perturbação na atividade mas que não provoca lesões ou danos.</FONT></LI></TEXTFORMAT>]]></texto>
+			<foto posH="centro" posV="superior">fotos/pic4.jpg</foto>
+		</pagina>
+	</item>
+
+	<item cor="0xff0000">
+		<titulo>Acidente de Trabalho:</titulo>
+		<pagina delay="3">
+			<texto><![CDATA[<TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0">É o que ocorre pelo exercício do trabalho ao serviço da empresa provocando incapacidade temporária, permanente ou morte.</FONT></LI></TEXTFORMAT>]]></texto>
+			<foto posH="centro" posV="superior">fotos/pic5.jpg</foto>
+		</pagina>
+	</item>	
+		
+	<rodape></rodape>
+
+</esquema>

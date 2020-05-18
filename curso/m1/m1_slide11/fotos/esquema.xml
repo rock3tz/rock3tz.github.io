@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<esquema>
+  <topo>100</topo>
+  <manter>nao</manter>
+  <topico>teste titulo primeiro</topico>
+	
+	<item>
+		<foto>fotos/pic1.jpg</foto>
+		<legenda></legenda>
+		<texto><![CDATA[<TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"></FONT></LI></TEXTFORMAT><TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"><b>Físicos</b> - Ruído, calor ou frio;</FONT></LI></TEXTFORMAT>]]></texto>
+	</item>
+  
+	<item>
+		<foto>fotos/pic2.jpg</foto>
+		<legenda></legenda>
+		<texto><![CDATA[<TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"><b>Ergonómicos</b> - Carga física ou postura incorreta;</FONT></LI></TEXTFORMAT>]]></texto>
+	</item>
+	
+	<item>
+		<foto>fotos/pic3.jpg</foto>
+		<legenda></legenda>
+		<texto><![CDATA[<TEXTFORMAT LEFTMARGIN="-10" LEADING="2"><LI><FONT FACE="Calibri" SIZE="17" COLOR="#333333" LETTERSPACING="0" KERNING="0"><b>Operativos</b> - Queda de objetos ou de pessoas.</FONT></LI></TEXTFORMAT>]]></texto>
+	</item>
+	
+		
+</esquema>

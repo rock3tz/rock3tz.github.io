@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<playaVideos>
+	<parametros oneVideoOnly="yes"></parametros>
+	<video>
+		<title></title>
+		<description></description>
+		<url>documentos/props/videos/mov.mp4</url>
+		<thumbnail>documentos/props/thumbnails/pic.jpg</thumbnail>
+		<duration>00:00</duration>
+	</video>
+</playaVideos>
