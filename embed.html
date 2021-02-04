@@ -1,25 +1,103 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
-    <title>SWFObject dynamic embed - step 3</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-	<script type="text/javascript" src="js/scoFramework.js"></script>
-	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
-	<link rel="stylesheet" href="./css/styles.css" type="text/css" />
+    <meta charset="utf-8">
+    <title></title>
+    <!--=====================================================================-->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="main.js"></script>
+    <style media="screen">
+      *{margin: 0;padding: 0}
+
+      .options{
+        display: none;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        width: 756px;
+        height: 425px;
+        margin: 0 0 -360px 0;
+      }
+      .options #opt1{
+        width: 100px;
+        height: 100px;
+        margin: 274px 0 0 84px;
+        background: rgba(240 248 255 / 38%);
+      }
+      .options #opt2{
+        width: 100px;
+        height: 100px;
+        margin: 224px 0 0 362px;
+        background: rgb(240 248 255 / 38%);
+      }
+      nav {
+        transition: all 0.3s;
+        position: relative;
+        z-index: 1;
+        margin: -43px 0 0 0;
+      }
+
+      #plays{}
+      #plays button{
+        background: transparent;
+        border: none;
+        color: #FFFFFF;
+        width: 30px;
+        height: 30px;
+        outline: none
+      }
+
+      #buttons {
+      	float:left;
+      	width:70px;
+      	height:22px;
+      }
+      #defaultBar {
+        position: relative;
+        float: left;
+        width: 756px;
+        height: 9px;
+        background: #dedede40;
+      }
+      #progressBar {
+        position: absolute;
+        width: 0px;
+        height: 9px;
+        background: #FFFFFF;
+        transition: all 0.3s;
+      }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      .options #opt1{
+        background: rgb(240, 248, 255);
+        opacity: 0.38;
+      }
+      .options #opt2{
+        background: rgb(240, 248, 255);
+        opacity: 0.38;
+      }
+}
+    </style>
   </head>
-  <body onload="document.getElementById('flashContent').style.display = 'block';">
-	<div class="center" id="flashContent" style="display: block;">
-		<object type="application/x-shockwave-flash" data="main.swf" width="1020" height="680">
-			<param name="quality" value="high" />
-			<param name="bgcolor" value="#ffffff" />
-			<param name="play" value="true" />
-			<param name="loop" value="true" />
-			<param name="wmode" value="transparent" />
-			<param name="scale" value="noscale" />
-			<param name="menu" value="true" />
-			<param name="devicefont" value="false" />
-			<param name="salign" value="false" />
-		</object>
-	</div>
+  <body>
+    <div class="options">
+      <button type="button" onclick="btn1()" id="opt1"></button>
+      <button type="button" onclick="btn2()" id="opt2"></button>
+    </div>
+    <video id="videoElement" width="756" height="425" autoplay="autoplay" poster="poster.png">
+      <source src="video/video1.mp4#t=0.5" type="video/mp4"></source>
+    </video>
+    <!------------------------------------------------------------------------->
+    <nav>
+  		<div id="plays">
+  			<button type="button" id="playButton">▶</button>
+        <button type="button" id="muteButton">🕪</button>
+        <button type="button" id="fullscreenButton">🗖</button>
+  		</div>
+  		<div id="defaultBar">
+  			<div id="progressBar"></div>
+  		</div>
+  		<div style="clear:both"></div>
+  	</nav>
   </body>
 </html>
