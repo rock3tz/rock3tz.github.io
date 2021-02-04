@@ -76,16 +76,17 @@ function doFirst(){
 	bar.addEventListener('click', clickedBar, false);
 
 	videoElement.pause();
-	//playOrPause();
+	playOrPause();
 }
 
 function playOrPause() {
+	debugger;
 	if (!videoElement.paused && !videoElement.ended){
 		videoElement.pause();
 		playButton.innerHTML='▶';
 		window.clearInterval(updateBar);
 	} else {
-		//videoElement.play();
+		videoElement.play();
 		playButton.innerHTML='❚❚';
 		updateBar=setInterval(update, 250);
 	}
